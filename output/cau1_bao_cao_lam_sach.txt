@@ -1,0 +1,15 @@
+﻿CÂU 1 — BÁO CÁO LÀM SẠCH DỮ LIỆU (Maternal Health Risk Data Set - Modi)
+==============================================================================
+Số dòng trước : 1014
+Số dòng sau   : 1014
+Ô trống trước : 0
+Ô trống sau   : 0
+
+1) Trực quan histogram: 6 cột số (Age, SystolicBP, DiastolicBP, BS, BodyTemp, HeartRate).
+2) Trực quan ma trận tương quan Pearson của tất cả 6 cột numeric.
+3) Điền khuyết bằng Rolling Mean (cửa sổ lùi 3 dòng): không có ô trống nào cần điền.
+4) Chuyển cột chữ 'RiskLevel' sang chữ thường.
+5) Cột 'HeartRate': Mod=[70], Mean=74.3018, Var=65.4271, Q1=70.00, Q2=76.00, Q3=80.00.
+6) Ngưỡng IQR = [55.0000, 95.0000]; số ngoại lệ = 2; đã thay thế bằng Rolling Mean: 2; còn lại: 0.
+
+Ghi chú: bảng dữ liệu có 562 dòng trùng hoàn toàn (55% số dòng) do thu thập lặp; theo yêu cầu đề bài, các dòng này được giữ nguyên để không thay đổi dữ liệu gốc.
